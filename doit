@@ -1,0 +1,7 @@
+#!/bin/sh
+rm -rf d.build
+mkdir d.build
+cp srv.c d.build
+cp prepare.sh d.build
+cp configure.additional d.build
+cp Makefile.am d.build

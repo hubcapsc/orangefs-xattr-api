@@ -1,0 +1,18 @@
+
+Makefile.am thinks (on a couple of lines)
+that orangefs is installed in /opt/trunk...
+change that as needed.
+
+Run prepare.sh
+
+Then configure
+
+Then make
+
+Works like this:
+
+  ./srv get /pvfsmnt/testfile key
+  ./srv del /pvfsmnt/testfile key
+  ./srv set /pvfsmnt/testfile key value
+  ./srv enum /pvfsmnt/testfile
+
